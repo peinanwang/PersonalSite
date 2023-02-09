@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Peinan Wang's Work</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="author" content="Peinan Wang" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="assets/js/template.js"></script>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+		<div id="wrapper">
+			<my-header></my-header>
+
+			<!-- Main -->
+			<div id="main">
+				<!-- Post -->
+				<section class="post">
+					<header class="major">
+						<span class="date">December 12, 2022</span>
+						<h1>Point Cloud Visualization in 3D<br /></h1>
+						<p>Python Flask; Open3D</p>
+					</header>
+					<p>This project is a team project for the Foundations of Software Engineering course (CS 5500) at Northeastern 
+						University. We are building a web application that can analyze and visualize LiDAR point cloud data. 
+					</p>
+
+					<iframe  width="100%" height="500" src="https://www.youtube.com/embed/OnHg_jJl4_4"></iframe>
+		
+					<h3> User Story</h3>
+					<ol>
+						<li>
+							<p>As an <em><b>urban planner</b></em>, I want to have a 3D view of the city, 
+							including features like roads, parks, buildings, etc. So I can make better decisions on city planning. 
+							After uploading the Lidar point cloud, a 3D rendering will be generated in the user interface. 
+							It supports basic functionalities like click and drag, zoom in and zoom out, 
+							so I can use it to show my design idea. </p>
+							<p>If the point cloud data that I have are already classified, each class will be colored differently. 
+								My main focus is to tell:
+							</p>
+							<ul>
+								<li>How much of the area is occupied by man-made structure/development (e.g. buildings, roads, bridge)</li>
+								<li>Where are all the vegetation features located (e.g. grass, shrubs, trees)</li>
+								<li>A clear display of the road systems</li>
+								<li>A clear display of the powerline infrastructure (e.g. power tower, distribution line). 
+									This is an important factor to consider when I make urban development plan
+								</li>
+							</ul>
+							<p>If my point cloud data is unclassified, I want to be able to process my data and assign the 
+								following classification code to each point
+							</p>
+							<ul>
+								<li>0 Never Classified</li>
+								<li>1 Unassigned</li>
+								<li>2 Ground</li>
+								<li>3 Low Vegetation</li>
+								<li>4 Medium Vegetation</li>
+								<li>5 High Vegetation</li>
+								<li>6 Building</li>
+								<li>7 Noise</li>
+								<li>8 Model Key/Reserved</li>
+								<li>9 Water</li>
+								<li>10 Rail</li>
+								<li>11 Road Surface</li>
+								<li>12 Overlap/Reserved</li>
+								<li>13 Wire - Guard</li>
+								<li>14 Wire - Conductor</li>
+								<li>15 Transmission Tower</li>
+								<li>16 Wire - Connector</li>
+								<li>17 Bridge Deck</li>
+								<li>18 High Noise</li>
+							</ul>
+						</li>
+
+						<li><p>As an <em><b>architect</b></em>, I want to access various kinds of information when I crop a certain area of land. 
+							The information includes building coverage ratio, residential density, and afforested area. 
+							With the help of terrestrial equipment, I can also have a view of infrastructure and population,  
+							so that I can make a more elaborate analysis on site research and present more convincing data for my project.</p></li>
+						
+							<li><p>As a <em><b>civil engineer</b></em>, I want regional distribution and topographic maps to help me with road planning. 
+							In the map, I need the distribution of existing buildings and roads. 
+							Also, the areas of farmlands, rivers and forests are also important. 
+							Besides these, I need the map of topography including altitude information to help me design.</p></li>
+					</ol>
+					<div class="image main"><img src="https://user-images.githubusercontent.com/105306727/208507948-eb8349e3-29ac-4a35-bd1f-b00a59c207cd.png" alt="" /></div>
+					<div class="image main"><img src="https://user-images.githubusercontent.com/105306727/208507889-7ea6898b-404e-48a3-b066-6260a8142553.png" alt="" /></div>
+					<div class="image main"><img src="https://user-images.githubusercontent.com/105306727/202593926-f2250e77-fa32-4d6c-a78c-ba844ec2db47.png" alt="" /></div>
+					<div class="image main"><img src="https://user-images.githubusercontent.com/105306727/208509981-507c4bd7-5a7b-458e-b421-6cdeed6f6e67.png" alt="" /></div>
+					<div class="image main"><img src="https://user-images.githubusercontent.com/105306727/208510524-140b78c5-180c-42bb-b91e-58ffe1d0bbf8.png" alt="" /></div>
+
+					<p>
+						For more details, please check out my
+						<a href="https://github.com/peinanwang/cs5500_geospatial_projects">GitHub page</a>, 
+						<a href="https://peinanwang.github.io/Geospatial_Project_Blog/index.html">Project Blog</a>, and <a href="assets/Geospatial Project Poster.pdf">Poster</a>.
+					</p>
+					<ul class="actions special">
+						<li>
+							<a
+								href="https://github.com/peinanwang/cs5500_geospatial_projects"
+								class="button"
+								>View More Details</a
+							>
+						</li>
+					</ul>
+				</section>
+			</div>
+
+			<my-footer></my-footer>
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
