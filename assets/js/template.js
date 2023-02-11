@@ -6,7 +6,7 @@ class MyHeader extends HTMLElement {
             <h1>Patrick Peinan<br/>
             Wang</h1>
             <p> Master of Science in Computer Sciences student at <a href="https://www.northeastern.edu">Northeastern University</a> <br />
-            Prospective Software Engineer and Data Scientist <a href="https://www.linkedin.com/in/patrick-peinan-wang-3809158a/">@Peinan Wang</a>.</p>
+            Prospective Software Engineer and Data Scientist <a href="https://www.linkedin.com/in/patrick-peinan-w-3809158a/">@Peinan Wang</a>.</p>
             <ul class="actions">
                 <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
             </ul>
@@ -24,7 +24,7 @@ class MyHeader extends HTMLElement {
                 <li><a href="About Patrick.html">About Patrick</a></li>
             </ul>
             <ul class="icons">
-                <li><a href="https://www.linkedin.com/in/patrick-peinan-wang-3809158a/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://www.linkedin.com/in/patrick-peinan-w-3809158a/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
                 <li><a href="https://github.com/peinanwang" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
             </ul>
         </nav>
@@ -59,7 +59,7 @@ class MyFooter extends HTMLElement {
                 <section>
                     <h3>Social</h3>
                     <ul class="icons alt">
-                        <li><a href="https://www.linkedin.com/in/patrick-peinan-wang-3809158a/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/patrick-peinan-w-3809158a/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
                         <li><a href="https://github.com/peinanwang" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
                     </ul>
                 </section>
